@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container1 {
+    background-color: #790f0f;
+    padding: 4em 2em 2em 2em;
+}
+
+.container1 h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.container1 p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin: 2em 0;
+}
+
+.contact-container {
+    display: grid;
+}
+
+.container1 p span {
+    color: orange;
+}
+
+.heading p {
+    margin-bottom: 1em;
+}
+
+.heading h1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.container2 {
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 7em;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+}
+
+.input-control p {
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.input-control input {
+    padding: 10px 80px 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: rgb(248, 247, 247);
+    border-width: 1px;
+}
+
+.input-control img {
+    width: 40px;
+}
+
+.flex2 {
+    display: grid;
+    grid-template-columns: 50px 443px;
+}
+
+
+.others input {
+    padding-right: 330px;
+
+}
+
+.orange p {
+    color: rgb(255, 102, 0);
+    font-family: "lato", sans-serif;
+    row-gap: 9px;
+    column-gap: 5px;
+}
+
+.orange {
+    margin-top: 0.6em;
+    margin-bottom: 3em;
+
+}
+
+.buttonsec p {
+    font-size: small;
+    text-align: center;
+}
+
+.buttonsec p span {
+    color: rgb(255, 102, 0);
+}
+
+.buttonsec button {
+    padding: 20px 200px 20px 200px;
+    margin-left: 2em;
+    background-color: rgb(255, 102, 0);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:768) {
+    .main-wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+    }
+    
+}
+
+.container2 {
+    padding: 2em, 2em, 0;
+}
+
+@media screen and (max-width:480px) {
+    .main-wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+}
+.container2{
+    padding: 2em, 2em, 0;
+}
+.container1{}
